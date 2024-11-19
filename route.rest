@@ -1,0 +1,15 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/6736df4d4b3672d92b0e6b62
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name" : "Pikachu",
+    "subscribedToChannel" : "TEST" 
+}
