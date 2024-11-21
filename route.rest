@@ -13,3 +13,16 @@ Content-Type: application/json
     "name" : "Pikachu",
     "subscribedToChannel" : "TEST" 
 }
+
+###
+
+DELETE http://localhost:3000/subscribers/6736df4d4b3672d92b0e6b62
+
+###
+
+PATCH http://localhost:3000/subscribers/673bf396b576cc36fce9b948
+Content-Type : application/json
+
+{
+    "name" : "Raichu"
+}
